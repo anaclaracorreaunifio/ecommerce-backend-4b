@@ -21,7 +21,7 @@ public class ItemPedido {
 
      Integer quantidade;
 
-     BigDecimal valorunitario;
+     BigDecimal valorUnitario;
 
     @ManyToOne
     private Pedido pedido;
